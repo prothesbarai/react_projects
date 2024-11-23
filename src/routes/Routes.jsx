@@ -7,6 +7,8 @@ import WebProjects from "../component/staticpage/WebProjects";
 import ToolsProjects from "../component/staticpage/ToolsProjects";
 import MySkills from "../component/staticpage/MySkills";
 import AnimationProjects from "../component/staticpage/AnimationProjects";
+import SoftwareProjects from "../component/staticpage/SoftwareProjects";
+import MyBlog from "../component/staticpage/MyBlog";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +42,14 @@ const router = createBrowserRouter([
       {
         path: "/animationprojects",
         element: <AnimationProjects></AnimationProjects>
+      },
+      {
+        path: "/softwareprojects",
+        element: <SoftwareProjects></SoftwareProjects>
+      },
+      {
+        path: "/myblog",
+        element: <MyBlog></MyBlog>
       },
     ]
   },
