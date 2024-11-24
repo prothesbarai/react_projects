@@ -43,7 +43,7 @@ export default function Header() {
                                 <Link className="nav-link text-light" to="/myskills">My Skill</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle text-light" href="">My Projects</Link>
+                                <span className="nav-link dropdown-toggle text-light" style={{cursor:"pointer"}}>My Projects</span>
                                 <ul className="dropdown-menu dropdown-menu-end border-0 shadow" aria-labelledby="navbarDropdown">
                                     <li>
                                         <Link className="dropdown-item text-dark" to="/softwareprojects" style={{ transition: "background-color 0.3s" }}>Software Projects</Link>

@@ -175,65 +175,65 @@ export default function SoftwareProjects() {
 
 
                 {/* Technologies Summary */}
-<section className="my-5 py-5">
-    <div className="container">
-        <h2 className="text-center mb-4">Technologies I Work With</h2>
-        <div className="row text-center">
-            <div className="col-md-3">
-                <i className="fab fa-java fa-4x mb-3 text-primary"></i>
-                <h5>Java</h5>
-            </div>
-            <div className="col-md-3">
-                <i className="fab fa-react fa-4x mb-3 text-primary"></i>
-                <h5>React</h5>
-            </div>
-            <div className="col-md-3">
-                <i className="fab fa-python fa-4x mb-3 text-primary"></i>
-                <h5>Python</h5>
-            </div>
-            <div className="col-md-3">
-                <i className="fab fa-android fa-4x mb-3 text-primary"></i>
-                <h5>Android</h5>
-            </div>
-        </div>
-    </div>
-</section>
+                <section className="my-5 py-5">
+                    <div className="container">
+                        <h2 className="text-center mb-4">Technologies I Work With</h2>
+                        <div className="row text-center">
+                            <div className="col-md-3">
+                                <i className="fab fa-java fa-4x mb-3 text-primary"></i>
+                                <h5>Java</h5>
+                            </div>
+                            <div className="col-md-3">
+                                <i className="fab fa-react fa-4x mb-3 text-primary"></i>
+                                <h5>React</h5>
+                            </div>
+                            <div className="col-md-3">
+                                <i className="fab fa-python fa-4x mb-3 text-primary"></i>
+                                <h5>Python</h5>
+                            </div>
+                            <div className="col-md-3">
+                                <i className="fab fa-android fa-4x mb-3 text-primary"></i>
+                                <h5>Android</h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
-{/* Project Timeline */}
-<section className="my-5">
-    <div className="container text-center">
-        <h2 className="text-center mb-5">My Development Journey</h2>
-        <div className="timeline">
-            {/* Timeline Item 1 */}
-            <div className="timeline-item">
-                <h5>2020</h5>
-                <p>
-                    Started working on my first Android application - 
-                    <strong> Emergency Help App</strong>, focusing on
-                    essential services for users.
-                </p>
-            </div>
-            {/* Timeline Item 2 */}
-            <div className="timeline-item">
-                <h5>2021</h5>
-                <p>
-                    Developed <strong>PrimeCast IPtv</strong>, introducing 
-                    advanced video streaming capabilities.
-                </p>
-            </div>
-            {/* Timeline Item 3 */}
-            <div className="timeline-item">
-                <h5>2022</h5>
-                <p>
-                    Enhanced JSON parsing skills with 
-                    <strong>ArrayList App</strong>, integrating JSON 
-                    data with interactive user interfaces.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+                {/* Project Timeline */}
+                <section className="my-5">
+                    <div className="container text-center">
+                        <h2 className="text-center mb-5">My Development Journey</h2>
+                        <div className="timeline">
+                            {/* Timeline Item 1 */}
+                            <div className="timeline-item">
+                                <h5>2020</h5>
+                                <p>
+                                    Started working on my first Android application -
+                                    <strong> Emergency Help App</strong>, focusing on
+                                    essential services for users.
+                                </p>
+                            </div>
+                            {/* Timeline Item 2 */}
+                            <div className="timeline-item">
+                                <h5>2021</h5>
+                                <p>
+                                    Developed <strong>PrimeCast IPtv</strong>, introducing
+                                    advanced video streaming capabilities.
+                                </p>
+                            </div>
+                            {/* Timeline Item 3 */}
+                            <div className="timeline-item">
+                                <h5>2022</h5>
+                                <p>
+                                    Enhanced JSON parsing skills with
+                                    <strong>ArrayList App</strong>, integrating JSON
+                                    data with interactive user interfaces.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
 
 

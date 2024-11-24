@@ -1,58 +1,107 @@
 export default function Home() {
-    return (
+  return (
+    <>
+      {/* Hero Section */}
+      <header id="header" className="d-flex justify-content-center align-items-center" style={{ height: '100vh', backgroundImage: 'url(https://png.pngtree.com/thumb_back/fh260/background/20230217/pngtree-blue-wavy-banner-background-blank-image_1608934.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="container text-center">
+          <h1 className="text-white display-4 animate__animated animate__fadeIn">Welcome to My Portfolio</h1>
+          <p className="lead text-white animate__animated animate__fadeIn animate__delay-1s">Im Prothes Barai, a passionate developer</p>
+          <a href="https://prothesbarai.github.io/prothesbarai/index.html" target="_blank" className="btn btn-primary btn-lg animate__animated animate__fadeIn animate__delay-2s">My Website</a>
+        </div>
+      </header>
 
-        <main className="main">
-            <section id="hero" className="hero section dark-background">
+      {/* About Section */}
+      <section id="about" className="about py-5">
+        <div className="container text-center">
+          <h2 className="section-title animate__animated animate__fadeIn">About Me</h2>
+          <div className="row">
+            <div className="col-lg-6">
+              <img src="https://avatars.githubusercontent.com/u/75435992?v=4" alt="About Me" className="img-fluid rounded-circle shadow-lg" />
+            </div>
+            <div className="col-lg-6 text-center align-items-center align-content-center">
+              <h3 className="animate__animated animate__fadeIn">Hello, Im Prothes!</h3>
+              <p className="animate__animated animate__fadeIn">
+                I specialize in software development and building web applications. I love coding, problem-solving, and creating solutions that make life easier.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                {/* <img src={exampleImage} alt="" data-aos="fade-in" /> */}
+      {/* Skills Section */}
+      <section id="skills" className="skills bg-light py-5">
+        <div className="container text-center">
+          <h2 className="section-title animate__animated animate__fadeIn">My Skills</h2>
+          <div className="row">
+            <div className="col-md-3">
+              <div className="skill-box animate__animated animate__fadeIn">
+                <i className="fab fa-react fa-4x mb-3"></i>
+                <h5>React</h5>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="skill-box animate__animated animate__fadeIn">
+                <i className="fab fa-js fa-4x mb-3"></i>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="skill-box animate__animated animate__fadeIn">
+                <i className="fab fa-python fa-4x mb-3"></i>
+                <h5>Python</h5>
+              </div>
+            </div>
+            <div className="col-md-3">
+              <div className="skill-box animate__animated animate__fadeIn">
+                <i className="fab fa-html5 fa-4x mb-3"></i>
+                <h5>HTML5</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <div className="container">
-
-                    <div className="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-                        <div className="col-xl-6 col-lg-8">
-                            <h2>Powerful Digital Solutions With GP<span>.</span></h2>
-                            <p>We are team of talented digital marketers</p>
-                        </div>
-                    </div>
-
-                    <div className="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
-                        <div className="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
-                            <div className="icon-box">
-                                <i className="bi bi-binoculars"></i>
-                                <h3><a href="">Lorem Ipsum</a></h3>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
-                            <div className="icon-box">
-                                <i className="bi bi-bullseye"></i>
-                                <h3><a className="">Dolor Sitema</a></h3>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
-                            <div className="icon-box">
-                                <i className="bi bi-fullscreen-exit"></i>
-                                <h3><a href="">Sedare Perspiciatis</a></h3>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
-                            <div className="icon-box">
-                                <i className="bi bi-card-list"></i>
-                                <h3><a href="">Magni Dolores</a></h3>
-                            </div>
-                        </div>
-                        <div className="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
-                            <div className="icon-box">
-                                <i className="bi bi-gem"></i>
-                                <h3><a href="">Nemos Enimade</a></h3>
-                            </div>
-                        </div>
-                    </div>
-
+      {/* Projects Section */}
+      <section id="projects" className="projects py-5">
+        <div className="container text-center">
+          <h2 className="section-title animate__animated animate__fadeIn">My Projects</h2>
+          <div className="row">
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <img src="https://via.placeholder.com/400x250" alt="Project 1" className="card-img-top" />
+                <div className="card-body">
+                  <h5 className="card-title">Project 1</h5>
+                  <p className="card-text">A description of the first project.</p>
+                  <a href="#!" className="btn btn-primary">View Project</a>
                 </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <img src="https://via.placeholder.com/400x250" alt="Project 2" className="card-img-top" />
+                <div className="card-body">
+                  <h5 className="card-title">Project 2</h5>
+                  <p className="card-text">A description of the second project.</p>
+                  <a href="#!" className="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <img src="https://via.placeholder.com/400x250" alt="Project 3" className="card-img-top" />
+                <div className="card-body">
+                  <h5 className="card-title">Project 3</h5>
+                  <p className="card-text">A description of the third project.</p>
+                  <a href="#!" className="btn btn-primary">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            </section>
-        </main>
-
-    )
+      
+    </>
+  );
 }
 
