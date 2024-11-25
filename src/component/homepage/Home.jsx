@@ -6,8 +6,10 @@ export default function Home() {
         <div className="container text-center">
           <h1 className="text-white display-4 animate__animated animate__fadeIn">Welcome to My Portfolio</h1>
           <p className="lead text-white animate__animated animate__fadeIn animate__delay-1s">Im Prothes Barai, a passionate developer</p>
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFFFF&center=true&vCenter=true&random=false&width=440&height=45&lines=Software+Developer!;Front-end+developer!;Wordpress+Expert;Java+Developer&size=22" className="my-3"/><br />
           <a href="https://prothesbarai.github.io/prothesbarai/index.html" target="_blank" className="btn btn-primary btn-lg animate__animated animate__fadeIn animate__delay-2s">My Website</a>
         </div>
+  
       </header>
 
       {/* About Section */}
