@@ -80,7 +80,7 @@ export default function MySkills() {
                         <div className="mb-3">
                             <label className="form-label">PHP</label>
                             <div className="progress">
-                                <div className="progress-bar bg-secondary" style={{ width: '99%' }}>
+                                <div className="progress-bar bg-secondary" style={{ width: '80%' }}>
                                     80%
                                 </div>
                             </div>
